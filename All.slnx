@@ -1,0 +1,44 @@
+<Solution>
+  <Folder Name="/OptionaleModule/">
+    <Project Path="OptionaleModule/3dRendering/M22_3dRendering_optional.csproj" />
+    <Project Path="OptionaleModule/Behaviors/M24_Behaviors_optional.csproj" />
+    <Project Path="OptionaleModule/CustomControls/M21_CustomControls_optional.csproj" />
+    <Project Path="OptionaleModule/CustomLayouts/M20_CustomLayouts_optional.csproj" />
+    <Project Path="OptionaleModule/DrawLine/DrawLine.csproj" />
+    <Project Path="OptionaleModule/M017_Adorner_(optional)/M17_Adorner_optional.csproj" />
+    <Project Path="OptionaleModule/Multithreading/M18_Multithreading_optional.csproj" />
+    <Project Path="OptionaleModule/MultiTouch/M19_MultiTouch_optional.csproj" />
+    <Project Path="OptionaleModule/Spielwiese/Spielwiese.csproj" />
+  </Folder>
+  <Project Path="M001/M001_Grundlagen_Demo/M01_Grundlagen.csproj" />
+  <Project Path="M002/M002_Controls_Demo/M02_Controls.csproj" />
+  <Project Path="M002/M002_Controls_LabLoesung/Lab02_Loesung.csproj" />
+  <Project Path="M003/M003_Layoutcontainer_Demo/M03_Container.csproj" />
+  <Project Path="M003/M003_Layoutcontainer_LabLoesung/Lab03_Loesung.csproj" />
+  <Project Path="M004/M004_EventRouting_Demo/M04_EventRouting.csproj" />
+  <Project Path="M004/M004_EventRouting_LabLoesung/Lab04_Loesung.csproj" />
+  <Project Path="M005/M005_PropertyBinding_Demo/M05_PropertyBinding.csproj" />
+  <Project Path="M005/M005_PropertyBinding_LabLoesung/Lab05_Loesung.csproj" />
+  <Project Path="M006/M006_DataBinding_Demo/M06_DataBinding.csproj" />
+  <Project Path="M006/M006_DataBinding_LabLoesung/Lab06_Loesung.csproj" />
+  <Project Path="M007/M007_ResourcesStyles_LabLoesung/Lab07_Loesung.csproj" />
+  <Project Path="M007/M007_Resources_Styles_Demo/M07_Resources_Styles.csproj" />
+  <Project Path="M008/M008_Templates_Demo/M08_Templates.csproj" />
+  <Project Path="M008/M008_Templates_LabLoesung/Lab08_Loesung.csproj" />
+  <Project Path="M009/M009_Validation_Demo/M09_Validation.csproj" />
+  <Project Path="M009/M009_Validation_LabLoesung/Lab09_Loesung.csproj" />
+  <Project Path="M010/M010_Trigger_Demo/M10_Trigger.csproj" />
+  <Project Path="M010/M010_Trigger_LabLoesung/Lab10_Loesung.csproj" />
+  <Project Path="M011/M011_UserControls_Demo/M11_UserControls.csproj" />
+  <Project Path="M011/M011_UserControls_LabLoesung_01/Lab11_Loesung_01.csproj" />
+  <Project Path="M011/M011_UserControls_LabLoesung_02/Lab11_Loesung_02.csproj" />
+  <Project Path="M012/M012_RelativeSources_Demo/M12_RelativeSources.csproj" />
+  <Project Path="M012/M012_RelativeSources_LabLoesung/Lab12_Loesung.csproj" />
+  <Project Path="M013/M013_Commands_Demo/M13_Commands.csproj" />
+  <Project Path="M014/M014_MVVM_Demo/M14_MVVM.csproj" />
+  <Project Path="M014/M014_MVVM_LabLoesung/Lab14_Loesung.csproj" />
+  <Project Path="M015/M015_Localisation_Demo/M15_Localisation.csproj" />
+  <Project Path="M015/M015_Localisation_LabLoesung/Lab15_Loesung.csproj" />
+  <Project Path="M016/M016_Animations_Demo/M16_Animations.csproj" />
+  <Project Path="M016/M016_Animations_LabLoesung/Lab16_Loesung.csproj" />
+</Solution>
