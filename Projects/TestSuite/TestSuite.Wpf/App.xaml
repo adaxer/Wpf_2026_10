@@ -1,0 +1,16 @@
+﻿<Application x:Class="TestSuite.Wpf.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:vm="clr-namespace:TestSuite.Common.ViewModels;assembly=TestSuite.Common"
+             xmlns:v="clr-namespace:TestSuite.UI.Views;assembly=TestSuite.UI">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/QET.Styles;component/Styles.xaml"/>
+                <ResourceDictionary Source="/TestSuite.UI;component/UIResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        
+            <sys:Double x:Key="StandardFontSize">16</sys:Double>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

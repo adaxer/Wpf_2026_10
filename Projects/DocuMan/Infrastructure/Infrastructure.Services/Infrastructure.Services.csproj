@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>DocuMan.Infrastructure.Services</RootNamespace>
+    <AssemblyName>DocuMan.Infrastructure.Services</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Domain.Models\Domain.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pdf\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\M000\WPF_00_Einführung.pdf" Link="Pdf\WPF_00_Einführung.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\..\..\M001\WPF_M001_Grundlagen.pdf" Link="Pdf\WPF_M001_Grundlagen.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\..\..\..\M014\WPF_M014_MVVM.pdf" Link="Pdf\WPF_M014_MVVM.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>DocuMan.Domain.Models</RootNamespace>
+    <AssemblyName>DocuMan.Domain.Models</AssemblyName>
+  </PropertyGroup>
+
+</Project>

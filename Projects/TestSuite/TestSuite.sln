@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12105.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSuite.Wpf", "TestSuite.Wpf\TestSuite.Wpf.csproj", "{D2A4B7A0-9C6F-4F1D-B3E7-9C0A1B2C3D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{47230365-305B-41EB-84F1-B748AF199F2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{9EC48CBD-07E0-473B-A8C1-D5A967EBC8A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSuite.Common", "TestSuite.Common\TestSuite.Common.csproj", "{57C105DC-F91A-43D0-A2BD-7645A56E5F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSuite.UI", "TestSuite.UI\TestSuite.UI.csproj", "{5F40AC35-EE00-4983-91F6-9F2411D27EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QET.Styles", "QET.Styles\QET.Styles.csproj", "{3E75310D-DBBE-8C8A-736C-14F6545285E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8689786-DE81-4B8F-A2C3-EBDC49D7BFC4}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A4B7A0-9C6F-4F1D-B3E7-9C0A1B2C3D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A4B7A0-9C6F-4F1D-B3E7-9C0A1B2C3D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A4B7A0-9C6F-4F1D-B3E7-9C0A1B2C3D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A4B7A0-9C6F-4F1D-B3E7-9C0A1B2C3D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C105DC-F91A-43D0-A2BD-7645A56E5F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C105DC-F91A-43D0-A2BD-7645A56E5F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C105DC-F91A-43D0-A2BD-7645A56E5F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C105DC-F91A-43D0-A2BD-7645A56E5F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F40AC35-EE00-4983-91F6-9F2411D27EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F40AC35-EE00-4983-91F6-9F2411D27EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F40AC35-EE00-4983-91F6-9F2411D27EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F40AC35-EE00-4983-91F6-9F2411D27EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E75310D-DBBE-8C8A-736C-14F6545285E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E75310D-DBBE-8C8A-736C-14F6545285E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E75310D-DBBE-8C8A-736C-14F6545285E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E75310D-DBBE-8C8A-736C-14F6545285E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2A4B7A0-9C6F-4F1D-B3E7-9C0A1B2C3D4E} = {9EC48CBD-07E0-473B-A8C1-D5A967EBC8A1}
+		{57C105DC-F91A-43D0-A2BD-7645A56E5F1D} = {9EC48CBD-07E0-473B-A8C1-D5A967EBC8A1}
+		{5F40AC35-EE00-4983-91F6-9F2411D27EB9} = {9EC48CBD-07E0-473B-A8C1-D5A967EBC8A1}
+		{3E75310D-DBBE-8C8A-736C-14F6545285E3} = {9EC48CBD-07E0-473B-A8C1-D5A967EBC8A1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B1C49B5-004C-4BA8-A148-000B7591C1EF}
+	EndGlobalSection
+EndGlobal

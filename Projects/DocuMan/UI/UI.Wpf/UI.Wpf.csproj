@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>DocuMan.UI.Wpf</RootNamespace>
+    <AssemblyName>DocuMan.UI.Wpf</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="ADaxer.MvvmNav.Wpf" />
+    <PackageReference Include="ADaxer.Pdf.Wpf" />
+    <PackageReference Include="MaterialDesignThemes" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" />
+    <PackageReference Include="NSubstitute" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.Services\Infrastructure.Services.csproj" />
+    <ProjectReference Include="..\UI.Common\UI.Common.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="Views\ToolBarView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

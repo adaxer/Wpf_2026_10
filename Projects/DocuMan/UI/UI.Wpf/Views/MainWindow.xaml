@@ -1,0 +1,39 @@
+﻿<Window x:Class="DocuMan.UI.Wpf.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        xmlns:v="clr-namespace:ADaxer.MvvmNav.Wpf.Views;assembly=ADaxer.MvvmNav.Wpf"
+        xmlns:vm="clr-namespace:DocuMan.UI.Common.ViewModels;assembly=DocuMan.UI.Common"
+        xmlns:design="clr-namespace:DocuMan.UI.Wpf.DesignData"
+        xmlns:c="clr-namespace:ADaxer.MvvmNav.Wpf.Converters;assembly=ADaxer.MvvmNav.Wpf"
+        Title="{Binding Title}" Height="450" Width="800" MinWidth="420" MinHeight="300"
+        d:DataContext="{x:Static design:ViewModelLocator.Main}">
+
+    <Window.Resources>
+        <c:TruthyToVisibilityConverter x:Key="TruthyToVisibilityConverter" />
+    </Window.Resources>
+
+    <DockPanel Background="LightGray">
+        <ContentControl DockPanel.Dock="Top" Content="{Binding ToolBar}"/>
+
+        <ContentControl DockPanel.Dock="Bottom" Content="{Binding StatusBar}"/>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" MaxWidth="250" MinWidth="100"/>
+                <ColumnDefinition Width="6" />
+                <ColumnDefinition Width="3*" MinWidth="300"/>
+            </Grid.ColumnDefinitions>
+            <GridSplitter Grid.Column="1" Width="6" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="LightGray" ShowsPreview="True" />
+            <ContentControl Grid.Column="0" Content="{Binding Documents}"/>
+            <ContentControl Grid.Column="2" Content="{Binding CurrentModule}"/>
+            <Border Background="#80000000" Grid.ColumnSpan="3"
+                    Visibility="{Binding CurrentDialog, Converter={StaticResource TruthyToVisibilityConverter}}">
+                <v:WpfDialogView DataContext="{Binding CurrentDialog}" />
+            </Border>
+
+        </Grid>
+    </DockPanel>
+</Window>
