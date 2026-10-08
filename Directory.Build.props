@@ -1,0 +1,8 @@
+<Project>
+  <PropertyGroup>
+	<!-- Default TargetFramework for this solution. Projects that need a different framework should override this in their .csproj -->
+	<TargetFramework>net8.0-windows</TargetFramework>
+	<UseWPF>true</UseWPF>
+	<ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+</Project>

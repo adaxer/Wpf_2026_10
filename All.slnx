@@ -10,6 +10,7 @@
     <Project Path="OptionaleModule/MultiTouch/M19_MultiTouch_optional.csproj" />
     <Project Path="OptionaleModule/Spielwiese/Spielwiese.csproj" />
   </Folder>
+  <Folder Name="/Solution Items/" />
   <Project Path="M001/M001_Grundlagen_Demo/M01_Grundlagen.csproj" />
   <Project Path="M002/M002_Controls_Demo/M02_Controls.csproj" />
   <Project Path="M002/M002_Controls_LabLoesung/Lab02_Loesung.csproj" />

@@ -17,13 +17,13 @@
             <Slider x:Name="Sdr_Eins"
                     Width="300"
                     Value="5"/>
-            <TextBox Width="80">
+            <TextBox Width="80" AcceptsReturn="True">
                 <TextBox.Text>
                     <!--Mittels der Mode-Property von Bindings kann der Bindungs-Weg definiert werden
                         Mode=TwoWay stellt eine Bindung in beide Richtungen bereit-->
                     <!--Mittels der UpdateSourceTrigger-Property kann definiert werden, wann die GUI aktualisiert wird.
                         UST=LostFocus aktualisiert das Element, wenn der Focus in dem Fenster auf ein anderes Element gelegt wird-->
-                    <Binding ElementName="Sdr_Eins" Path="Value" Mode="TwoWay" UpdateSourceTrigger="LostFocus"/>
+                    <Binding ElementName="Sdr_Eins" Path="Value" Mode="TwoWay" UpdateSourceTrigger="LostFocus" StringFormat="Wert: {0:n2}" />
                 </TextBox.Text>
             </TextBox>
         </StackPanel>
